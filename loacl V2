@@ -1,0 +1,56 @@
+-- Load Kavo UI Library
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Acript load", "Serpent") -- Theme set to Serpent
+
+-- ===== Die of Death Tab =====
+local DieTab = Window:NewTab("Die of Death")
+local DieSection = DieTab:NewSection("Credits to Nexer and RedScripter102 for these")
+
+DieSection:NewButton("Nexer Hub (best DoD script tbh)", "Loads Nexer Hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NewNexer/NexerHub/refs/heads/main/DOD/Main.luau"))()
+end)
+
+DieSection:NewButton("RedScripter102 hub (really good)", "Loads RedScripter102 hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RedScripter102/Script/refs/heads/main/Die%20of%20death%20updated"))()
+end)
+
+DieSection:NewButton("Both (Nexer hub and RedScripter102 hub)", "Loads both scripts", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/RedScripter102/Script/refs/heads/main/Die%20of%20death%20updated"))()
+    task.wait(1)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NewNexer/NexerHub/refs/heads/main/DOD/Main.luau"))()
+end)
+
+-- ===== Dye of deaf Tab =====
+local DyeTab = Window:NewTab("Dye of deaf")
+local DyeSection = DyeTab:NewSection("Credits to Acript guy")
+DyeSection:NewButton("Acript guy script", "Loads Acript guy script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/acriptsss3/refs/heads/main/DyD%20acript%20v7365473264"))()
+end)
+
+-- ===== RECKLESS Tab =====
+local RecklessTab = Window:NewTab("RECKLESS")
+local RecklessSection = RecklessTab:NewSection("Credits to Acript")
+RecklessSection:NewButton("Acript", "Loads Acript", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/RECKLESS-Acript/refs/heads/main/Acript%20acript"))()
+end)
+
+-- ===== FORSAKEN GUEST FIGHTING Tab =====
+local ForsakenTab = Window:NewTab("FORSAKEN GUEST FIGHTING")
+local ForsakenSection = ForsakenTab:NewSection("Credits to molester for this")
+ForsakenSection:NewButton("Reach", "Loads Reach script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/molester-s-script/refs/heads/main/molester's%20reach%20(credits%20to%20him)"))()
+end)
+
+-- ===== Doom By Fate Tab =====
+local DoomTab = Window:NewTab("Doom By Fate")
+local DoomSection = DoomTab:NewSection("Credits to Yanciel for this")
+DoomSection:NewButton("Best Script For Doom By Fat3 Keyless", "Loads Doom By Fate script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/yancielsicard2-arch/Doom-By-Fate-Yanciel/refs/heads/main/Doom%20By%20Fate%20Script",true))()
+end)
+
+-- ===== DIVE !!! v0.2a Tab =====
+local DiveTab = Window:NewTab("DIVE !!! v0.2a")
+local DiveSection = DiveTab:NewSection("Credits to Acript guy 2")
+DiveSection:NewButton("Acript guy script 2", "Loads DIVE script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/DIVE-/refs/heads/main/DIVE%20v2.0a%20script"))()
+end)
