@@ -24,7 +24,7 @@ end)
 local DyeTab = Window:NewTab("Dye of deaf")
 local DyeSection = DyeTab:NewSection("Credits to Acript guy")
 DyeSection:NewButton("Acript guy script", "Loads Acript guy script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/acriptsss3/refs/heads/main/DyD%20acript%20v7365473264"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/Dye-Of-Deaf-acript/refs/heads/main/DyD%20script"))()
 end)
 
 -- ===== RECKLESS Tab =====
