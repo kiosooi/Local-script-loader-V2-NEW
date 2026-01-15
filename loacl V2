@@ -54,3 +54,10 @@ local DiveSection = DiveTab:NewSection("Credits to Acript guy 2")
 DiveSection:NewButton("Acript guy script 2", "Loads DIVE script", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/DIVE-/refs/heads/main/DIVE%20v2.0a%20script"))()
 end)
+
+-- ===== Live Of Life Tab =====
+local DiveTab = Window:NewTab("LoL")
+local DiveSection = DiveTab:NewSection("Credits to Acript guy 2")
+DiveSection:NewButton("Acript guy LoL script", "Loads LoL script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/LiveOfLive/refs/heads/main/LoL%20(Live%20of%20Life)"))()
+end)
