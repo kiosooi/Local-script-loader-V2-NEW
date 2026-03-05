@@ -14,10 +14,16 @@ DieSection:NewButton("RedScripter102 hub (really good)", "Loads RedScripter102 h
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RedScripter102/Script/refs/heads/main/Die%20of%20death%20updated"))()
 end)
 
-DieSection:NewButton("Both (Nexer hub and RedScripter102 hub)", "Loads both scripts", function()
+DieSection:NewButton("Aceit hub (good)", "Loads Aceit hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/gasv/refs/heads/main/eds"))()
+end)
+
+DieSection:NewButton("All (Nexer hub, RedScripter102 hub and Aceit Hub)", "Loads All scripts for DoD", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/RedScripter102/Script/refs/heads/main/Die%20of%20death%20updated"))()
     task.wait(1)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/NewNexer/NexerHub/refs/heads/main/DOD/Main.luau"))()
+    task.wait(1)
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/gasv/refs/heads/main/eds"))()
 end)
 
 -- ===== Dye of deaf Tab =====
