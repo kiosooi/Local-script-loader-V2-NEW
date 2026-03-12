@@ -33,11 +33,15 @@ DyeSection:NewButton("Acript guy script", "Loads Acript guy script", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/Dye-Of-Deaf-acript/refs/heads/main/DyD%20script"))()
 end)
 
--- ===== RECKLESS Tab =====
-local RecklessTab = Window:NewTab("RECKLESS")
-local RecklessSection = RecklessTab:NewSection("Credits to Acript")
-RecklessSection:NewButton("Acript", "Loads Acript", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/RECKLESS-Acript/refs/heads/main/Acript%20acript"))()
+-- ===== FORSAKEN FANGAMES Tab =====
+local ForsakenTab = Window:NewTab("FORSAKEN FANGAMES")
+local ForsakenSection = ForsakenTab:NewSection("Credits to no one for this")
+ForsakenSection:NewButton("Mistaken Hub", "Loads Mistaken hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/mistaken-hub/refs/heads/main/mist"))()
+end)
+
+ForsakenSection:NewButton("footsaken Hub", "Loads footsaken hub", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/fosaken-script/refs/heads/main/fewd"))()
 end)
 
 -- ===== FORSAKEN GUEST FIGHTING Tab =====
@@ -64,6 +68,13 @@ end)
 -- ===== Live Of Life Tab =====
 local DiveTab = Window:NewTab("LoL")
 local DiveSection = DiveTab:NewSection("Credits to Acript guy 2")
-DiveSection:NewButton("Acript guy LoL script", "Loads LoL script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/LiveOfLive/refs/heads/main/LoL%20(Live%20of%20Life)"))()
+DiveSection:NewButton("Teslacountexe LoL script", "Loads LoL script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/teslacountexe-gif/Scripts/refs/heads/main/Live%20of%20life%20script"))()
+end)
+
+-- ===== RECKLESS Tab =====
+local RecklessTab = Window:NewTab("RECKLESS")
+local RecklessSection = RecklessTab:NewSection("Credits to Acript")
+RecklessSection:NewButton("Acript", "Loads Acript", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/kiosooi/RECKLESS-Acript/refs/heads/main/Acript%20acript"))()
 end)
